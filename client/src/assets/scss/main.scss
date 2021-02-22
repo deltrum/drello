@@ -1,0 +1,13 @@
+@import "vars";
+@import "default";
+@import "fonts";
+@import "layouts";
+
+// Pages & Components styling
+@import "pages/home";
+@import "components/task-column";
+@import "components/auth-form";
+
+@import "global";
+
+// Media

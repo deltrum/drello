@@ -1,0 +1,49 @@
+/*===== Default styling =====*/
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  min-width: 350px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+*,
+*:after,
+*:after {
+  box-sizing: inherit;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+button,
+input,
+a,
+textarea,
+select {
+  outline: 0;
+}
